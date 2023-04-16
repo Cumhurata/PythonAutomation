@@ -5,7 +5,7 @@ import Config
 class OracleDB:
 
     def __init__(self):
-        cx_Oracle.init_oracle_client(lib_dir=r'C:\instantclient_21_8')
+        cx_Oracle.init_oracle_client(lib_dir=r'C:\Apps\instantclient_21_9')
         self.username = Config.username
         self.password = Config.password
         self.dsn = Config.dsn

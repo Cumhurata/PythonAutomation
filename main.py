@@ -1,6 +1,7 @@
 from ServisIslemleri import ServiceProcess
 from DatabaseBaglantisi import OracleDB
-
+f=open("C:\\Users\\Cumhur Ata\\PycharmProjects\\PythonAutomation\\outputfile.txt", "r+");
+f.truncate(0);
 cross_offer_outcome = [
     [{"customer_id": "'1008917620'"}, {"channel": "Branch"}, {"sub_channel": "100101"}, {"functionCode": "FIZ"},
      {"orgLevel": "DEPARTMENT"}, {"userRole": "RELATIONSHIP_MANAGER"}, {"outcome": "Accepted"}, {"outcome_id": "31"},
@@ -103,6 +104,7 @@ def cross_offer_ih_check_dif_channel(cust_id, channel, subchannel, functionCode,
                                      outcome_id, pyname, suppression_time_temp, suppress_channel, suppress_sub_channel,
                                      suppress_functionCode, suppress_offer_pyname):
     print(f"\n************************CrossOffer IH CHECK FOR {outcome} TODAY STARTS***********************\n")
+    f.write("************************CrossOffer IH CHECK FOR {outcome} TODAY STARTS***********************\n");
     # delete ih
     database.delete("INTERACTION_HISTORY_V", "CUSTOMERID = " + cust_id)
     # delete supplement
@@ -112,9 +114,11 @@ def cross_offer_ih_check_dif_channel(cust_id, channel, subchannel, functionCode,
     context_data = context_data_definition(suppress_channel, suppress_sub_channel, suppress_functionCode, orgLevel,
                                            userRole)
     print("getOffer Request and Response:")
+    f.write("getOffer Request and Response:");
     service.getOfferResponse(service_cust_id, context_data, suppress_offer_pyname)
     if service.is_offer_presented:
         print("\nCaptureResponse Request and Response: ")
+        f.write("\nCaptureResponse Request and Response: ");
         service.captureResp(outcome, service_cust_id, outcome_id, suppress_sub_channel, suppress_functionCode)
         print("\ngetOffer Request and Response: ")
         context_data = context_data_definition(channel, subchannel, functionCode, orgLevel,

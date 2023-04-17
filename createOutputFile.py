@@ -1,6 +1,6 @@
 f=open("C:\\Users\\Cumhur Ata\\PycharmProjects\\PythonAutomation\\outputfile.txt", "r+");
 f.truncate(0);
-f.write("more text aresads a sa there..adsd..");
+f.write("Caglar deneneme 1232131");
 t=open("C:\\Users\\Cumhur Ata\\PycharmProjects\\PythonAutomation\outputfile.txt", "r");
 print(t.read);
 

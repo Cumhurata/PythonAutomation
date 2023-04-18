@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38af95e2-3a83-4fd4-bfef-318258fa0cd9" name="Changes" comment="Updated Code &amp; Interpreter">
-      <change afterPath="$PROJECT_DIR$/20230418-001944.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/20230418-002535.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20230418-001745.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/20230418-001745.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20230418-001822.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/20230418-001822.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20230418-001831.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/20230418-001831.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20230418-001944.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/20230418-001944.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20230418-002010.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/20230418-002010.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/createOutputFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/createOutputFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -45,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cumhur Ata\PycharmProjects\PythonAutomation\outputs" />
       <recent name="C:\Users\HP\PycharmProjects\pythonProject1\Alistirmalar" />
       <recent name="C:\Users\HP\PycharmProjects\pythonProject1" />
     </key>
@@ -144,7 +153,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681766328151</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated Code &amp; Interpreter">
+      <created>1681766417481</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681766417481</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated Code &amp; Interpreter">
+      <created>1681766584455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681766584455</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated Code &amp; Interpreter">
+      <created>1681766668513</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681766668513</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
